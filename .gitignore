@@ -1,0 +1,56 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Local database and temporary files
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# Python cache and test results
+.pytest_cache/
+__pycache__/
+
+# Local environment
+.venv/
+
+# Frontend dependencies and build
+node_modules/
+dist/
+
+# Local secrets and data
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.db
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+task1-knowledge-brain/documents/embeddings/
+
+task1-knowledge-brain/documents/embeddings/
+task1-knowledge-brain/documents/embeddings/
+
+# Generated knowledge-base data
+task1-knowledge-brain/documents/articles/
+task1-knowledge-brain/documents/cleaned_articles/
+task1-knowledge-brain/documents/chunks/
